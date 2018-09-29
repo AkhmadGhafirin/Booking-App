@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space_5"
+    app:behavior_hideable="true"
+    app:layout_behavior="android:support.design.widget.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/tv_pemesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name  : "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_nama_pemesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_pemesan"
+        android:text="Akhmad Ghafirin"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_kereta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pemesan"
+        android:text="Kereta : "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_nama_kereta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pemesan"
+        android:layout_toRightOf="@+id/tv_kereta"
+        android:text="Bogowonto"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="@dimen/space_150"
+        android:layout_height="@dimen/space_150"
+        android:layout_below="@+id/tv_kereta"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_qr_code"
+        android:layout_centerInParent="true"
+        android:background="#4a62ff"
+        android:text="ok"
+        android:textColor="#ffffff" />
+
+    <ProgressBar
+        android:id="@+id/pb_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

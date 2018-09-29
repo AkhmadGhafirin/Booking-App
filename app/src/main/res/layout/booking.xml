@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space_15">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gajah wong"
+        android:textColor="#2e2e2e"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:text="18:45 - 21:55"
+        android:textColor="#2e2e2e"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:text="GMR - BD"
+        android:textColor="#2e2e2e"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_station"
+        android:text="Ekonomi" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/space_5"
+        android:text="IDR 140.000"
+        android:textColor="#e20a0a"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_pesan"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="@dimen/space_80"
+        android:layout_height="@dimen/space_30"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_price"
+        android:layout_margin="@dimen/space_5"
+        android:background="#4a62ff"
+        android:text="Pesan"
+        android:textColor="#ffffff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_class"
+        android:layout_marginTop="@dimen/space_5"
+        android:background="#000000" />
+</RelativeLayout>

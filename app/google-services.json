@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "753380860770",
+    "firebase_url": "https://bookingapp-8d61c.firebaseio.com",
+    "project_id": "bookingapp-8d61c",
+    "storage_bucket": "bookingapp-8d61c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753380860770:android:ba456ce241961cd3",
+        "android_client_info": {
+          "package_name": "com.example.cascer.bookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753380860770-ufbjq38dmolo0tc8javke81o66e2icg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cascer.bookingapp",
+            "certificate_hash": "0373c949e91289f39ee20136176cb8d9653f43ae"
+          }
+        },
+        {
+          "client_id": "753380860770-ikju1ntc1k3n4foe4p7scerjegsncglo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBgm5ZBQOSRN-lEd9MdXabkH36hEsWyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753380860770-ikju1ntc1k3n4foe4p7scerjegsncglo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
